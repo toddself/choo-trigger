@@ -7,13 +7,18 @@
   "devDependencies": {
     "browserify": "^14.4.0",
     "nanobus": "^4.1.0",
+    "standard": "^10.0.2",
     "tape": "^4.6.3",
     "tape-run": "^3.0.0"
   },
   "scripts": {
-    "test": "browserify trigger.spec.js | tape-run"
+    "test": "standard && browserify trigger.spec.js | tape-run"
   },
-  "keywords": ["choo", "emitter", "nanobus"],
+  "keywords": [
+    "choo",
+    "emitter",
+    "nanobus"
+  ],
   "author": "Todd Kennedy <todd@selfassembled.org>",
   "license": "Apache-2.0"
 }
