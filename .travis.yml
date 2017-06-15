@@ -1,0 +1,5 @@
+node_js:
+  - '6'
+sudo: false
+language: node_js
+script: npm run test

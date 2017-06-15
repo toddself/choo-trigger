@@ -1,5 +1,28 @@
 # choo-trigger
 
+<div align="center">
+  <!-- Stability -->
+  <a href="https://nodejs.org/api/documentation.html#documentation_stability_index">
+    <img src="https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square"
+      alt="API stability" />
+  </a>
+  <!-- NPM version -->
+  <a href="https://npmjs.org/package/choo-trigger">
+    <img src="https://img.shields.io/npm/v/choo-trigger.svg?style=flat-square"
+      alt="NPM version" />
+  </a>
+  <!-- Build Status -->
+  <a href="https://travis-ci.org/toddself/choo-trigger">
+    <img src="https://img.shields.io/travis/toddself/choo-trigger/master.svg?style=flat-square"
+      alt="Build Status" />
+  </a>
+  <!-- Standard -->
+  <a href="https://standardjs.com">
+    <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square"
+      alt="Standard" />
+  </a>
+</div>
+
 Set up an event to be emitter after another event has been emitted. This allows
 you to chain events in series from a view to create ad-hoc workflows for your
 application. Triggers are attached via `.once` so after they are fired, they are
